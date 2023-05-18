@@ -35,6 +35,11 @@ DEMO_PAGE_INTRO_HTML = """ """
 
 SECRET_KEY = '4e)yq#142jd4j2q2=gl-g$&^cakt=slnk%bcb($g1h2*vlo##w'
 
+ALLOWED_HOSTS = ['*']
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+
 # if an app is included in SESSION_CONFIGS, you don't need to list it here
 INSTALLED_APPS = ['otree']
 
