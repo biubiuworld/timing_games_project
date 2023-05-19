@@ -35,7 +35,7 @@ DEMO_PAGE_INTRO_HTML = """ """
 
 SECRET_KEY = '4e)yq#142jd4j2q2=gl-g$&^cakt=slnk%bcb($g1h2*vlo##w'
 
-ALLOWED_HOSTS = ['34.125.46.177', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = False
